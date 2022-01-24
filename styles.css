@@ -73,3 +73,19 @@ h1 {
     padding-top: 10%;
     padding-bottom: 10%;
   }
+
+  #whatWeDo{
+    font-family: 'Quattrocento', serif;
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Gabriela', serif;
+  }
+  #whatWeDo h2 {
+      padding: 20px;
+  }
+.col-md-4 {
+    cursor: pointer;
+}
+  #design, #development, #projectManagement{
+    display:none;
+  }
