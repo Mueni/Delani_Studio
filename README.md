@@ -9,7 +9,7 @@ This site gives an overview of delani studios, what they do and the services the
 
 ## Setup/Installation Requirements
 * Download a browser of choice
-* Open the following link in browser of choice: 
+* Open the following link in browser of choice: https://mueni.github.io/Delani_Studio/
 * Alternatively, Clone the repo
 * Go to project folder where the cloned repo is.
 * Select Index, right click and open with browser of choice
