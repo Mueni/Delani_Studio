@@ -91,16 +91,16 @@ $(document).ready(function(){
   });
   
   $(document).ready(function(){
-    $("form#form34A").submit(function(event){
+    $("#contactForm").submit(function(){
       // event.preventDefault();
-      var name = $("input#MERGE1").val();
-      var email = $("input#MERGE0").val();
+      var name = $("input#name").val();
+      var email = $("input#email").val();
       var message = $("textarea#comment").val();
-      if ($("input#MERGE1").val() && $("input#MERGE0").val()){
-        alert (name + ", we have received your message. Thank you for reaching out to us.");
+      if (name  && email && message) {
+        alert (name + " " + "Your message has been received, Thank you for reaching out to us.");
       }
       else {
-        alert("Please enter your name and email!");
+        alert("Please fill out all fields, none should be blank!");
       }
       
     });

@@ -135,25 +135,24 @@ input[type=text],input[type=email],#comment{
   font-family: 'Copse', serif;
 }
 
-.form-control::-webkit-input-placeholder { 
-  color: white; 
+.form-control{
+    display: inline-block !important;
 }
 #name{
   width: 30%;
   margin-left: 18%;
-  margin-right: 30px;
 }
 #email{
   width: 30%;
 }
 #comment{
-  margin-left: 20%;
-  width: 60%;
+    margin-left: 18%;
+    width: 60%;
 }
-button{
-  margin-left: 20%;
+.btn{
+  margin-left: 18%;
   padding-bottom: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 20px !important;
 }
 footer{
   text-align: center;
@@ -194,7 +193,6 @@ footer p{
     top: 20px;
     left: 16px;
     padding-top: 20%;
-    /* font-size: 16px; */
   }
   .col-md-3 img{
     width:100%;
@@ -204,13 +202,10 @@ footer p{
     margin-left:8%;
     margin-right: 16%; 
   }
-  button{
+  .btn{
     margin-left: 2%;
     padding-bottom: 30px;
-    margin-bottom: 20px;
-    /* margin-left: 10px; */
-
-    /* margin-right: -20%; */
+    margin-bottom: 20px !important;
   }
 }
 @media only screen and (max-width: 425px){
@@ -230,9 +225,9 @@ footer p{
     margin-left:8%;
     margin-right: 16%; 
   }
-  button{
+  .btn{
     padding-bottom: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 20px !important;
   }
   #email{
     width: 84%;

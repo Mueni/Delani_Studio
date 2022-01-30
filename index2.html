@@ -143,15 +143,18 @@
   <div class="container-fluid contact">
     <h2>CONTACT US</h2>
 
-    <form id="form34A" action="" method="POST">
-      <div class="form-group form-inline">
-        <input type="text" class="form-control" placeholder = "Name...." name="name" id="name" size="25" value="">
-        <input type="email" class="form-control"  placeholder = "Email...." name="email" id="email" size="25" value="">
+    <form id="contactForm" action="" method="POST">
+      <div class="form-group row">
+        <input type="text" class="form-control col" placeholder = "Name...." name="name" id="name" size="25" value="">
+        <input type="email" class="form-control col"  placeholder = "Email...." name="email" id="email" size="25" value="">
       </div>
       <div class="form-group">
-        <textarea class="form-control" rows="8" id="comment" placeholder = "Your message here...."></textarea>
+        <textarea class="form-control" rows="10" id="comment" placeholder = "Your message here...."></textarea>
       </div>
-      <button type="submit" class="btn btn-primary col-md-1">Submit</button>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary col-md-1">Submit</button>
+
+      </div>
     </form>
   </div>
   <footer>
