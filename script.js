@@ -92,7 +92,6 @@ $(document).ready(function(){
   
   $(document).ready(function(){
     $("#contactForm").submit(function(){
-      // event.preventDefault();
       var name = $("input#name").val();
       var email = $("input#email").val();
       var message = $("textarea#comment").val();
