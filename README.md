@@ -14,6 +14,7 @@ This site gives an overview of delani studios, what they do and the services the
 * Go to project folder where the cloned repo is.
 * Select Index, right click and open with browser of choice
 
+## Behaviour Driven Development (BDD)
 * Clicking on the animated mouse should scroll down the page
 * At what we do section, clicking on the image should toggle a paragraph explaining about the named service.
 * At the portfolio section, hovering over each image will show a white translucent box with the name of the image.
